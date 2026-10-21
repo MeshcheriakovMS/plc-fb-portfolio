@@ -1,0 +1,25 @@
+# CoDeSys
+*.bak
+*.~*
+*._*
+*.___
+*.compiled
+*.cache
+*.sqlite
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo
+*.precompilecache
+*.opt
+
+# TIA Portal — коммитим только .zap14, папку проекта игнорируем
+src/tia/*/
+!src/tia/*.zap14
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
